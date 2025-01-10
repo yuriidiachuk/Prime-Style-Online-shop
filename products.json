@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Steve Slim fit jeans in  blue",
+    "price": "55",
+    "image": "images/img1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Ski jacket in Brown",
+    "price": "90",
+    "image": "images/img2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Leather boots with spikes ",
+    "price": "85",
+    "image": "images/img4.webp"
+  },
+  {
+    "id": 4,
+    "name": "Timi Flannel shirt in Dark blue",
+    "price": "25",
+    "image": "images/img3.webp"
+  },
+  {
+    "id": 5,
+    "name": " Lace-up boots with spikes",
+    "price": "70",
+    "image": "images/img5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Arne Down ski jacket",
+    "price": "65",
+    "image": "images/img6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Timt Shirt in Beige/Anthracite",
+    "price": "40",
+    "image": "images/img7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rob Jeans with prime fit",
+    "price": "60",
+    "image": "images/img8.webp"
+  }
+]

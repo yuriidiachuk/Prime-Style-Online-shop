@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+    <title>Online shop</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="nav-list sticky">
+        <h3><a class="logo" href="#home">Prime Style</a></h3>
+        <div class="menu-box">
+        <nav class="nav">
+          <ul class="menu-list">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#shop">Shop</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cart-box">
+          <a href=""
+            ><div id="miniCart" class="mini-cart">
+              <img
+                class="shoping-cart"
+                src="images/shoping-cart.png"
+                alt="Shoping Cart"
+              />
+              <div class="shoping-box">
+                <h4 class="shoping-box-title">Shoping cart</h4>
+                <div class="listCart">
+                </div>
+                
+              </div>
+              <span id="counter">0</span> 
+            </div>
+          </a>
+          <button class="btn-mobile-nav">
+            <img src="images/menu.png" class="icon-mobile-nav" name="menu-outline"></img>
+            <img src="images/close-menu.png" class="icon-mobile-nav" name="close-outline"></img>
+          </button>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+        <div class="head">
+          <div class="text-block">
+            <h4>New lounch</h4>
+            <h1 class="title-head">
+              Atlas Merino:
+            </h1>
+            <h2 class="description-head">
+              Natural Fibers for Next-Level Comfort
+            </h2>
+            <button class="btn-1 btn--scroll-to">View products</button>
+          </div>
+          <div class="image-block">
+            <img src="images/Hero-img1.jpg" alt="Women in coat" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="products" id="shop">
+      <div class="container">
+        <h2 class="our-products">Our products</h2>
+        <div class="listProduct">  
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div >
+          <div class="about-box">
+            <img src="images/about-img.webp" alt="">
+            <div class="text-box">
+              <h5>About us</h5>
+              <h3>Our Brand Story</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Perspiciatis corrupti accusantium eligendi ullam doloribus 
+                incidunt, commodi beatae qui odio corporis doloremque, 
+                dolorum id veniam asperiores repudiandae eos facilis sit 
+                porro!
+                Perspiciatis corrupti accusantium eligendi ullam doloribus 
+                incidunt, commodi beatae qui odio corporis doloremque, 
+                dolorum id veniam asperiores repudiandae eos facilis sit 
+                porro!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+      <h2>Contact</h2>
+      <h4>If you have any questions feel free to contact us</h4>
+      <form action="submit">
+        <input type="text" placeholder="first name">
+        <input type="text" placeholder="email">
+        <input type="textarea" placeholder="message">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+<div class="footer-box">
+  <div class="footer-logo">
+    <h4>Prime Style</h4>
+    <p>Copyright © 2025 by <br> Prime Style, Inc. All rights <br> reserved.</p>
+  </div>
+  <div class="footer-menu">
+    <ul class="footer-menu-list">
+      <li><a class="footer-nav-link" href="#home">Home</a></li>
+      <li><a class="footer-nav-link" href="#shop">Shop</a></li>
+      <li><a class="footer-nav-link" href="#about">About</a></li>
+      <li><a class="footer-nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="footer-contact">
+    <p>623 Harrison St., <br> 2nd Floor, San Francisco, <br> CA 94107</p>
+    <p>415-201-6370 <br>
+      hello@prime-style.com</p>
+  </div>
+</div>
+</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+@media (max-width: 1280px) {
+  .listProduct {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+  .nav-list {
+    padding: 0px 30px;
+  }
+  .sticky {
+    padding: 15px 30px;
+  }
+  .shoping-box {
+    right: -50px;
+  }
+}
+@media (max-width: 940px) {
+  .listProduct {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  .nav {
+    display: flex;
+    background-color: rgba(69, 69, 69, 0.98);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    height: 100vh;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.4s ease-in;
+  }
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    color: #fff;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+    color: #333;
+  }
+  .btn-mobile-nav {
+    display: block;
+    padding-left: 30px;
+    right: 10px;
+    top: 20px;
+    position: absolute;
+  }
+  .mini-cart {
+    margin-right: 50px;
+  }
+  .menu-list {
+    margin: 0 auto;
+
+    text-align: center;
+    display: inline-block;
+    margin-top: 80px;
+  }
+  .menu-list li {
+    margin-bottom: 30px;
+  }
+  .menu-list li a {
+    color: white;
+  }
+  .shoping-box {
+    right: -80px;
+  }
+  .about-box {
+    gap: 30px;
+  }
+  .about-box img {
+    max-width: 400px;
+  }
+  .about-box h3 {
+    margin-top: 10px;
+    font-size: 32px;
+  }
+  .about-box p {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 750px) {
+  .about-box {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .about-box img {
+    margin: 0px auto;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .listProduct {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .footer-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .description-head {
+    font-size: 27px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 400px) {
+  .listCart .item {
+    display: grid;
+    grid-template-columns: 50px 50px 30px 1fr;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 350px) {
+  .nav {
+    width: 100vw;
+    height: 100vh;
+  }
+}
